@@ -1,0 +1,31 @@
+OUTPUT Menu window
+OUTPUT Commerce button, English button, Physics button
+INPUT Press the button
+
+IF English button is pressed
+	THEN
+	    INITIALIZE points to 0
+	    OUTPUT submit button
+	    OUTPUT radio buttons
+	    STORE questions with variants of answers in questionsArray
+    	STORE answers in answersArray
+    	INITIALIZE index to 1
+    	PRINT question with index "index"
+    	REPLACE the radio buttons' text with variants of answers to the question with the index "index"
+
+    	INPUT Press the submit button
+
+
+
+		OUTPUT English quiz window
+
+	ELSE
+
+		IF Commerce button is pressed
+			THEN
+				OUTPUT Commerce quiz window
+			ELSE
+
+				IF Physics button is pressed
+					THEN
+						OUTPUT Commerce quiz window
